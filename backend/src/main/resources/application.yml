@@ -1,0 +1,23 @@
+server:
+  port: 9080
+
+logging:
+  level:
+    root: ERROR
+    ru.gitpush.tender: DEBUG
+    org.springframework.jdbc.core.JdbcTemplate: DEBUG
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/libtest?currentSchema=tender
+    username: test
+    password: test
+    continue-on-error: true
+    hikari:
+      connection-timeout: 2000
+  jpa:
+    generate-ddl: false
+    properties:
+      hibernate:
+        default_schema: tender
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
