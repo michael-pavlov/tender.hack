@@ -1,0 +1,14 @@
+.ui.vertically.padded.grid > .row > .eight .ui.grid > div.row{
+    padding: 0 !important;
+}
+.ui.vertically.padded.grid > .row > .eight .ui.grid > div.row:nth-child(2){
+    margin-bottom: 10px !important;
+    transform:translateY(-8px);
+}
+.SkuViewStyles__PriceComparerContainer-fp8xkv-10{
+    margin-top: 2px !important
+}
+.ui.vertically.padded.grid > .row > .eight{
+    transform: translateX(-30px);
+    padding: 0 !important;
+}

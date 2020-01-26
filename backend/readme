@@ -1,1 +1,5 @@
-
+This is a Spring java project with gradle build system.
+To build:
+	gradlew build
+To launch:
+	java -jar <resulting .war file (found in build/libs)>
